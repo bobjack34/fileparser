@@ -10,6 +10,9 @@ repos:
     hooks:
       - id: mypy
 
+  # entry: das wird ausgeführt, wenn pre-commit läuft
+  # in diesem Fall wird uv run pytest getartet, damit 
+  # das installierte Projekt (pip install .) erkannt wird
   - repo: local
     hooks:
       - id: pytest
