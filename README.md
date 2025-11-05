@@ -30,3 +30,10 @@ weil wir in fileparser/__init__.py die parse-Funktion importiert haben)
 ## Aus github installieren (Main Branch)
 
 pip install git+https://github.com/bobjack34/fileparser.git@main
+
+## Pre-Commit ausführen
+pre-commit install
+pre-commit run --all-files
+
+## pre-commit überspringen beim Commit
+git commit -m ".gitattributes hinzugefügt" -n
